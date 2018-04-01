@@ -8,7 +8,7 @@ this package on [download site](https://www.ubnt.com/download/unifi).
 
  * Python 3
  * [Selenium Chrome driver](https://sites.google.com/a/chromium.org/chromedriver/)
- * Python deps from [requiremets.txt](requiremets.txt)
+ * Python deps from [requirements.txt](requirements.txt)
  
 ## Instalation
 
