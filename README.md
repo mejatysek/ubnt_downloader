@@ -1,6 +1,6 @@
 # Ubnt downloader
 
-Simple python script that downloads specific or last released
+Simple python script that downloads specific or last (by release date) released
 version of unifi controller for unix. Ubnt do not provide link to 
 this package on [download site](https://www.ubnt.com/download/unifi).
 
@@ -16,7 +16,7 @@ this package on [download site](https://www.ubnt.com/download/unifi).
 ## Instalation
 
  1. Install system dependencies from above
- 1. Install Python dependecies via pip:
+ 1. Install Python dependencies via pip:
      ```bash
     pip3 install -r requiremets.txt
     ```
