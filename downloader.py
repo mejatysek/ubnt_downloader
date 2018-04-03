@@ -12,7 +12,7 @@ __author__ = 'mejty'
 class Downloader(object):
     DOWNLOAD_URL_TEMPLATE = "http://dl.ubnt.com/unifi/{version}/UniFi.unix.zip"
     FILE_NAME_TEMPLATE = "UniFi-{version}.unix.zip"
-    GET_LAST_VERSION_URL = "        https://www.ubnt.com/download/unifi/unifi-ap-ac-lr/uap-ac-lr/"
+    GET_LAST_VERSION_URL = "https://www.ubnt.com/download/unifi/unifi-ap-ac-lr/uap-ac-lr/"
 
     @staticmethod
     def download(version, file_name=None):
