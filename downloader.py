@@ -35,6 +35,7 @@ class Downloader(object):
         first_result_row = table_rows[1]
         newest_controller_name_column = first_result_row.find_element_by_css_selector("td.downloadResults__name")
         last_version = newest_controller_name_column.text.split()[1]
+        selenium.quit()
         return last_version
 
 
