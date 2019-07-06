@@ -1,3 +1,7 @@
+## WARNING: This project wont receive any further fixes. 
+It is deprecated in favor of docker container with controller. 
+See [unifi-docker](https://github.com/jacobalberty/unifi-docker).
+
 # Ubnt downloader
 
 Simple python script that downloads specific or last (by release date) released
