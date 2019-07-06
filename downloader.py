@@ -27,7 +27,7 @@ class Downloader(object):
     def get_last_version():
         options = webdriver.ChromeOptions()
         options.add_argument('headless')
-        selenium = webdriver.Chrome(chrome_options=options)
+        selenium = webdriver.Chrome(options=options)
         selenium.get(Downloader.GET_LAST_VERSION_URL)
         selenium.implicitly_wait(3)
         tbody = selenium.find_element_by_css_selector("tbody.js-table-results-software")
