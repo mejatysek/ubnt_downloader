@@ -1,10 +1,10 @@
 altgraph==0.16.1
-certifi==2018.10.15
+certifi==2019.6.16
 chardet==3.0.4
 future==0.16.0
 idna==2.7
 macholib==1.10
 pefile==2018.8.8
-requests==2.20.0
+requests==2.22.0
 selenium==3.141.0
-urllib3==1.24
+urllib3==1.25.3
